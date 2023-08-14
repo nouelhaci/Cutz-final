@@ -26,7 +26,7 @@ const notification = require("./routes/notification");
 // const upload = require('./routes/upload')
 const multer = require("multer");
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3006;
 
 app.use(cors());
 app.use("/images", express.static(__dirname + "/images"));
@@ -97,7 +97,7 @@ app.get("/", (req, res) => {
 ConnectMongoDB(process.env.MONGO_URI)
   .then(() => {
     console.log("connected to db");
-    app.listen(PORT, "0.0.0.0" () => {
+    app.listen(PORT,  () => {
       console.log(`Listening on Port ${PORT}`);
     });
   })
