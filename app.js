@@ -26,7 +26,7 @@ const notification = require("./routes/notification");
 // const upload = require('./routes/upload')
 const multer = require("multer");
 const app = express();
-const PORT = process.env.PORT || 3006;
+const PORT = process.env.PORT || 3000;
 
 app.use(cors());
 app.use("/images", express.static(__dirname + "/images"));
