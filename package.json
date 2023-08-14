@@ -24,8 +24,5 @@
   "engines": {
     "node": ">=14.0.0" // Specify the minimum Node.js version
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/yourusername/event-apis.git"
-  }
+  
 }
