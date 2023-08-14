@@ -97,7 +97,7 @@ app.get("/", (req, res) => {
 ConnectMongoDB(process.env.MONGO_URI)
   .then(() => {
     console.log("connected to db");
-    app.listen(PORT, () => {
+    app.listen(PORT, "0.0.0.0" () => {
       console.log(`Listening on Port ${PORT}`);
     });
   })
