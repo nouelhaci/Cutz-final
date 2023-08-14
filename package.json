@@ -21,6 +21,6 @@
     "nodemon": "^2.0.21"
   },
  "engines": {
-    "node": ">=14.0.0" // Specify the minimum Node.js version
+    "node": ">=14.0.0",
   },
 }
